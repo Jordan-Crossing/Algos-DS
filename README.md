@@ -1,7 +1,7 @@
 # Algos&DS
  Lessons learnt through failure and success 
 
- Im keeping track of attempts to solve questions in notepad 
+ Im keeping track of attempts to solve questions
  related to algorithms and data structures for future reference.
 
  loss is for code that just doesn't work for the given task wether it be syntax errors, 
