@@ -56,39 +56,38 @@
 //     return true
 
 // -----------------------------------CODE----------------------------------- //
-function classPhotos(redShirtHeights, blueShirtHeights) {
-  redShirtHeights.sort((a, b) => b - a);
-  blueShirtHeights.sort((a, b) => b - a);
+// function classPhotos(redShirtHeights, blueShirtHeights) {
+//   redShirtHeights.sort((a, b) => b - a);
+//   blueShirtHeights.sort((a, b) => b - a);
 
-  if (redShirtHeights[0] === blueShirtHeights[0]) {
-    return false;
-  }
+//   if (redShirtHeights[0] === blueShirtHeights[0]) {
+//     return false;
+//   }
 
-  let backRow = 0;
+//   let backRow = 0;
 
-  if (redShirtHeights[0] > blueShirtHeights[0]) {
-    backRow = redShirtHeights;
-  } else {
-    backRow = blueShirtHeights;
-  }
+//   if (redShirtHeights[0] > blueShirtHeights[0]) {
+//     backRow = redShirtHeights;
+//   } else {
+//     backRow = blueShirtHeights;
+//   }
 
-  for (let index = 0; index < redShirtHeights.length; index++) {
-    if (
-      redShirtHeights[index] > blueShirtHeights[index] &&
-      backRow === blueShirtHeights
-    )
-      return false;
-    if (
-      blueShirtHeights[index] > redShirtHeights[index] &&
-      backRow === redShirtHeights
-    )
-      return false;
-    if (blueShirtHeights[index] === redShirtHeights[index]) return false;
-  }
+//   for (let index = 0; index < redShirtHeights.length; index++) {
+//     if (
+//       redShirtHeights[index] > blueShirtHeights[index] &&
+//       backRow === blueShirtHeights
+//     )
+//       return false;
+//     if (
+//       blueShirtHeights[index] > redShirtHeights[index] &&
+//       backRow === redShirtHeights
+//     )
+//       return false;
+//     if (blueShirtHeights[index] === redShirtHeights[index]) return false;
+//   }
 
-  return true;
-}
-
+//   return true;
+// }
 // -----------------------------------TESTS----------------------------------- //
 
 // let redShirtHeights = [1, 1, 1, 1, 1, 1, 1, 1];
