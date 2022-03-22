@@ -77,7 +77,7 @@ def classPhotos(redShirtHeights, blueShirtHeights):
     return True
 
 
-# // -----------------------------------CODE----------------------------------- //
+# // -----------------------------------JSCODE----------------------------------- //
 
 # function classPhotos(redShirtHeights,blueShirtHeights) {
 #     redShirtHeights.sort((a, b) => b - a);
