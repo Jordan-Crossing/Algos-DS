@@ -1,0 +1,34 @@
+question silly elephants always biking past cars together rapidly
+
+question
+    write a function that takes a string and returns its run-length encoding
+
+    run length encoding is when runs of data are stored as a single data value and count, rather
+    than as the original run for this problem a run of data is any sequence of consecutive identical characters.
+     so "AAA" would be encoded as "3A"
+
+     for claritys sake keep encoding to single digets ie AAAAAAAAAAAA should be 9A3A
+sample io
+    i= AAABBC
+
+    o= 3A2B1C
+
+edgecase
+approach
+        store the current run length default to 1
+        iterate over the input string  
+            if prev character doesnt match current or longer than 9
+            push current run length to encodedStringCharacters 
+            push previous character
+            set run length to 0
+
+        currentRunLength++
+
+        final run logic for last character
+        
+bigO
+psudo code
+code
+tests
+refactor/reflection
+
